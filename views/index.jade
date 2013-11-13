@@ -1,0 +1,26 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script.
+
+
+
+
+    body
+        block content
+            h1 Home Page
+            p Welcome to my web chat
+            br
+            h3
+                a(href='/login') Login
+            hr
+            br
+            br
+            h3 Your message:&nbsp;
+            textarea#input
+            div#messages
+
+    script(src="http://mint:3000/socket.io/socket.io.js")
+    script(src='/javascripts/chat.client.js')

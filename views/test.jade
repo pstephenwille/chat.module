@@ -1,0 +1,15 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script.
+            console.log('woot-woot!')
+    body
+        block content
+            h1= title
+            p name
+                span= name
+            p XXX my custom test page
+            h4 port
+            p= port
