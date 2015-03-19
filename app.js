@@ -27,7 +27,7 @@ var express = require('express')
 
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 5005);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.favicon());
@@ -60,8 +60,5 @@ http.listen(app.get('port'), function(err)
         { console.log('Express server listening on port ' + app.get('port')); }
 
 });
-
-
-
 
 

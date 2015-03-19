@@ -10,7 +10,7 @@
 
 
 
-var socket = io.connect('http://mint:3000'),
+var socket = io.connect('http://localhost:5005'),
     inputElement = document.getElementById('input'),
     messagesElement = document.getElementById('messages'),
     lastMessageElement = null,
