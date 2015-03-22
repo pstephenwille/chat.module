@@ -1,7 +1,6 @@
 
 /**
  * Module dependencies.
- * ugh
  */
 
 
