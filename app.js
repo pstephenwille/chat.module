@@ -5,7 +5,7 @@
 
 
 /* app globals */
-dbConn_str = 'mongodb://mongodb:!unKn0wn8@dharma.mongohq.com:10050/users';
+dbConn_str = 'mongodb://mongodb:woot@dharma.mongohq.com:10050/users';
 mongoose = require('mongoose');
 Schema = mongoose.Schema;
 user_details = '';/* mongo.users doc, created in /routes/login.login */
