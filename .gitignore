@@ -3,7 +3,8 @@
 ### IDEA
 .idea
 *.iml
-.idea.bak
+
+
 ### Node template
 # Logs
 logs
