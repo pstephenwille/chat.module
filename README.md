@@ -1,3 +1,5 @@
+[![Build Status](http://71.227.169.159:65355/buildStatus/icon?job=chat.module)](http://71.227.169.159:65355/job/chat.module/)
+
 chat.module
 ===========
 
